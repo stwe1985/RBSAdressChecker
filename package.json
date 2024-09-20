@@ -1,0 +1,22 @@
+{
+  "name": "zipcodeapp",
+  "version": "1.0.0",
+  "main": "application.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel",
+    "test": "qunit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "zipcodeapp": "file:"
+  },
+  "devDependencies": {
+    "@types/qunit": "^2.19.10",
+    "qunit": "^2.22.0"
+  }
+}
